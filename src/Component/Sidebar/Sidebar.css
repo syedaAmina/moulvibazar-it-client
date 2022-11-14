@@ -1,0 +1,17 @@
+.sidebar {
+  margin-top: 3%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.sidebar a {
+  border: 2px solid rgba(67, 183, 40, 0.654);
+  padding: 0px 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: gray;
+  font-size: 20px;
+  font-weight: bold;
+}
+.sidebar a:hover {
+  color: rgb(30, 63, 225);
+}

@@ -1,0 +1,92 @@
+.login-container {
+  width: 480px;
+  height: 700px;
+  margin: 20px auto;
+  /* border: 1px solid #95A0A7; */
+  border-radius: 8px;
+  /* padding-left: 20px; */
+  background-color: rgba(78, 185, 140, 0.749);
+}
+.title {
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 70px;
+  letter-spacing: 0.0025em;
+  color: white;
+  text-align: center;
+  font-weight: 700;
+}
+.login-form {
+  margin-bottom: 20px;
+}
+.login-form label {
+  display: block;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  letter-spacing: 0.0015em;
+  margin-bottom: 10px;
+  color: white;
+  text-align: left;
+  margin-left: 30px;
+}
+.login-form input {
+  border: 1px solid red;
+  width: 415px;
+  height: 50px;
+  border: 1px solid #95a0a7;
+  border-radius: 5px;
+  font-size: 1.2em;
+  padding-left: 10px;
+}
+.submit-button {
+  width: 415px;
+  height: 55px;
+  margin-top: 20px;
+  background: rgba(78, 185, 140, 0.749);
+  border-radius: 5px;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: 0.0015em;
+  color: white;
+  border: none;
+  padding-left: 10px;
+}
+.login-text {
+  margin-top: 10px;
+  margin-bottom: 40px;
+  color: white;
+}
+
+.google-button {
+  width: 415px;
+  height: 55px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  background: gray;
+  font-weight: 700;
+  font-size: 21px;
+  line-height: 25px;
+  letter-spacing: 0.0015em;
+  border: none;
+  color: white;
+  padding-left: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .login-container {
+    width: 350px;
+    height: 700px;
+  }
+  .login-form input {
+    width: 300px;
+  }
+  .submit-button {
+    width: 300px;
+  }
+  .google-button {
+    width: 300px;
+  }
+}

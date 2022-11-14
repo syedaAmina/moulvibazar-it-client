@@ -1,0 +1,18 @@
+.QA {
+  box-shadow: rgba(23, 146, 89, 0.395) 0px 0px 16px;
+  width: 60%;
+  text-align: left;
+  margin: 2%;
+  margin-left: 17%;
+  padding: 3%;
+  border-radius: 12px;
+  color: rgb(31, 16, 16);
+  background-color: beige;
+}
+
+@media only screen and (max-width: 600px) {
+  .QA {
+    width: 90%;
+    margin-left: 20px;
+  }
+}

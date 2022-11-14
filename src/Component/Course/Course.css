@@ -1,0 +1,12 @@
+.body {
+  /* height: 350px; */
+  border-radius: 10px;
+  box-shadow: rgba(23, 146, 89, 0.395) 0px 0px 16px;
+  padding: 5px;
+  width: 21rem;
+  color: black;
+}
+.body img {
+  height: 250px;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 0px 8px;
+}

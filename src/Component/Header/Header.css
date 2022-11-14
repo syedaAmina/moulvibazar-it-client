@@ -1,0 +1,39 @@
+.logo {
+  width: 50px;
+  margin-left: 10px;
+}
+
+.nav a {
+  text-decoration: none;
+  margin-right: 30px;
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+.userImg {
+  width: 40px;
+  height: 40px;
+  border-radius: 51%;
+}
+.dark {
+  background-color: #333;
+  color: #fff;
+}
+
+.light {
+  background-color: #fff;
+  color: #333;
+}
+.yellow-sun {
+  color: rgba(131, 131, 34, 0.308);
+  font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .nav a {
+    margin-bottom: 20px;
+  }
+  .logout {
+    margin-top: 23px;
+  }
+}

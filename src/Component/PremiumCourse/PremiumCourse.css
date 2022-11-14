@@ -1,0 +1,26 @@
+.premium {
+    box-shadow: 0px 0px 10px 10px rgb(125, 125, 140);
+    width: 600px;
+   
+}
+.premium img{
+    width: 550px;
+}
+.left-info{
+    margin-left: 9%;
+    text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+
+    .premium {
+        width: 350px;
+    }
+    .premium img{
+        width: 330px;
+    }
+    .left-info{
+        word-wrap: normal;
+    }
+   
+  }

@@ -1,0 +1,40 @@
+
+.heading2{
+    width: 45%;
+}
+.heading2 img{
+   width: 100%;
+}
+.heading1{
+    width: 30%;
+}
+.heading1 img{
+    width: 100%;
+ }
+ .heading-info{
+    width: 40%;
+ }
+ .heading-info h1{
+   text-align: left;
+ }
+ .heading-info p{
+    text-align: justify;
+    font-size: 20px;
+    font-weight: 600;
+ }
+ @media only screen and (max-width: 600px) {
+    .get-started{
+      flex-direction: column;
+    }
+    .heading2{
+        width: 70%;
+    }
+    .heading1{
+        width: 70%;
+    }
+    .heading-info{
+        width: 80%;
+        margin-top: 20px;
+        margin-bottom: 20px;
+     }
+  }

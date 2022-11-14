@@ -1,0 +1,25 @@
+.side-body {
+  /* border: 1px solid red; */
+  margin-top: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(23, 146, 89, 0.395) 0px 0px 16px;
+  padding: 5px;
+  height: 400px;
+}
+.course-body {
+  /* border: 1px solid blue; */
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+}
+@media only screen and (max-width: 600px) {
+  .course-body {
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 0px;
+  }
+  .side-body {
+    margin-bottom: 20px;
+    width: 200px;
+  }
+}
